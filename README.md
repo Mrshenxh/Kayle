@@ -64,15 +64,15 @@
 
 场景一：
 
-接口为：https://api.zhihu.com/search/top_search/tabs/hot/items
+接口为：https://api.test.com/aaa
 
-则正则表达式写：https://api.zhihu.com/search/top_search/tabs/hot/items 即可
+则正则表达式写：https://api.test.com/aaa 即可
 
 场景二：
 
-接口为：https://api.zhihu.com/market/feeds?offset=20&limit=1
+接口为：https://api.test.com/aaa?offset=20&limit=1
 
-则正则表达式写：https://api.zhihu.com/market/feeds\?offset=\d{1,3}&limit=\d{1,3} 即可
+则正则表达式写：https://api.test.com/aaa\?offset=\d{1,3}&limit=\d{1,3} 即可
 
 原则就是，正则表达式可以匹配的接口有且只有一则数据即可。
 
